@@ -6,3 +6,6 @@ Common git commands
 
 ## Add external submodule
 **$** git submodule add _**url**_
+
+## Update repository recursively
+**$** git submodule update --recursive --remote
