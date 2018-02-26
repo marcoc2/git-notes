@@ -9,3 +9,6 @@ Common git commands
 
 ## Update repository recursively
 **$** git submodule update --recursive --remote
+
+## Reset a single file
+**$** git checkout HEAD -- my-file.txt
