@@ -15,4 +15,5 @@ Common git commands
 
 # Merge (some-branch into master)
 **$** git checkout master
+
 **$** git merge some-branch
