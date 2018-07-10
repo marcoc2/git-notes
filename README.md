@@ -13,7 +13,7 @@ Common git commands
 ## Reset a single file
 **$** git checkout HEAD -- my-file.txt
 
-# Merge (some-branch into master)
+## Merge (some-branch into master)
 **$** git checkout master
 
 **$** git merge some-branch
