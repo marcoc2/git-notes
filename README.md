@@ -18,12 +18,14 @@ Common git commands
 
 **$** git merge some-branch
 
-# Remove modified files or working directories (staged for commit)
+## Remove modified files or working directories (staged for commit)
 **$** git reset --hard
 
-# Clean untracked files (not flagged for commit)
-# (CAUTION: Will delete files)
+## Clean untracked files (not flagged for commit)
+### (CAUTION: Will delete files)
 **$** git clean -f -d # remove untracked
+
 **$** git clean -f -x -d # CAUTION: as above but removes ignored files like config.
+
 **$** git clean -fxd :/ # CAUTION: as above, but cleans untracked and ignored files through the entire repo (without :/, the operation affects only the current directory)
 
